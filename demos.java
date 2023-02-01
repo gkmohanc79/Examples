@@ -25,7 +25,7 @@ public class demos
             val.div(a,b);
             val.mul(a,b);
             val.sub(a,b);
-            val.table(b);
+         //   val.table(b);
 
 
 
@@ -40,7 +40,7 @@ abstract class Calc
     abstract void mul(int a , int b);
     abstract void div(int a , int b);
 
-    abstract void table(int a,int b);
+//    abstract void table(int a,int b);
 
 }
 class Final extends Calc
@@ -70,11 +70,11 @@ class Final extends Calc
         System.out.println("Addition of given numbers is :" + c);
     }
 
-    @Override
-    void table (int a, int b) {
-         for (int i=0;i<=10;i++)
-
-        System.out.printf(" %d * %d =%d " +a,i,(b=a*i)).println();
-    }
+//    @Override
+//    void table (int a, int b) {
+//         for (int i=0;i<=10;i++)
+//
+//        System.out.printf(" %d * %d =%d " +a,i,(b=a*i)).println();
+//    }
 
 }
